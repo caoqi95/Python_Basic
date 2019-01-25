@@ -1,4 +1,5 @@
 # 练习使用 filter() 内置函数
+# filter(function, iterable)
 
 
 def filter_nums(nums):
