@@ -175,3 +175,16 @@ print(charlie.type)
 
 # 更详细的内容可以查看文档：
 # https://docs.python.org/zh-cn/3/library/collections.html
+
+## 06-enumerate 枚举
+# 枚举会经常用到，下面是一个例子：
+some_dict = {'cao':1, 'qi':2, '95':3}
+for counter, value in enumerate(some_dict):
+    print(counter, value)
+
+# enumerate 还可以接收可选参数：
+my_list = ['apple', 'banana', 'grapes', 'pear']
+for c, value in enumerate(my_list, 1):
+    print(c, value)
+
+# 可选参数可以允许我们定制从哪个数字开始枚举
