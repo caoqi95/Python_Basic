@@ -1,3 +1,3 @@
-# Python_Practice
+# Python_Basic
 Practicing Python.
 
